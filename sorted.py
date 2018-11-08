@@ -7,7 +7,7 @@ print sorted([36,5,-12,9,-21])
 
 print sorted([36,5,-12,9,-21],key=abs)
 
-#3 练习题 假设我们用一组tuple表示学生名字和成绩：L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]，请用sorted()对上述列表分别按名字排序：
+#3 练习题 假设我们用一组tuple表示学生名字和成绩：L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]，请用sorted()对上述列表分别按名字和成绩进行排序：
 L = [('Bob', 75), ('Adam', 92), ('Bart', 66), ('Lisa', 88)]
 def by_name(t):
     name=t[0]
